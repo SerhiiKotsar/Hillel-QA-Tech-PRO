@@ -20,9 +20,7 @@
 //Единицы измерения (unit): kilometrs, hours, kilograms
 //count - количество
 let unit = 'kilometrs';
-let countKilometrs = 20.4;
-let countHours = 2;
-let countKilograms = 3.5;
+let count = 2;
 
 let isOneOfUnit = false;
 if (unit === 'kilometrs' || unit === 'hours' || unit === 'kilograms') {
@@ -35,18 +33,18 @@ if (isOneOfUnit) {
     switch (unit) {
         case 'kilometrs':
             //1 км - это 1000 метров
-            let kilometrsTransform = countKilometrs * 1000;
-            console.log(`${countKilometrs} км - это ${kilometrsTransform} метров`);
+            let kilometrsTransform = count * 1000;
+            console.log(`${count} км - это ${kilometrsTransform} метров`);
             break;
         case 'hours':
             //1 час - это 60 минут
-            let hoursTransform = countHours * 60;
-            console.log(`${countHours} час - это ${hoursTransform} минут`);
+            let hoursTransform = count * 60;
+            console.log(`${count} час - это ${hoursTransform} минут`);
             break;
         case 'kilograms':
             //1 кг - это 1000 гр.
-            let kilogramsTransform = countKilograms * 1000;
-            console.log(`${countKilograms} кг - это ${kilogramsTransform} гр`);
+            let kilogramsTransform = count * 1000;
+            console.log(`${count} кг - это ${kilogramsTransform} гр`);
             break;
     }
 }
