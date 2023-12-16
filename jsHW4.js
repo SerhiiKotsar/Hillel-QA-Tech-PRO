@@ -54,12 +54,15 @@ drawTriangleSecond(5, '$');
 Вивести на екран суму чисел від 1 до 100 включно, які не кратні 3.
 
 */
+let sum = 0;
 
 for (let el = 0; el <= 100; el++) {
     if (el % 3 !== 0) {
-        console.log(el);
-    }
+        sum = sum + el;
+    }      
 }
+
+console.log(`Сумма чисел от 1 до 100 (не кратных 3): ${sum}`);
 
 /*
 
