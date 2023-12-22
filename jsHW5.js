@@ -27,11 +27,11 @@ function myIsNaN(value) {
     return Number(value) !== Number(value);
 }
 
-// console.log(myIsNaN('qwerty')); //ожидаю true
-// console.log(myIsNaN(undefined)); //ожидаю true
-// console.log(myIsNaN(11)); //ожидаю false
-// console.log(myIsNaN(NaN)); //ожидаю true
-// console.log(myIsNaN(true)); //ожидаю false
+console.log(myIsNaN('qwerty')); //ожидаю true
+console.log(myIsNaN(undefined)); //ожидаю true
+console.log(myIsNaN(11)); //ожидаю false
+console.log(myIsNaN(NaN)); //ожидаю true
+console.log(myIsNaN(true)); //ожидаю false
 
 
 /*
@@ -82,7 +82,7 @@ function pad(str, char, count, addTo) {
 
 }
 
-//console.log(pad('Qwerty', '*', 10, true));
+console.log(pad('Qwerty', '*', 10, true));
 
 /*
 ДЗ 3
