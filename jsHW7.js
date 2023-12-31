@@ -170,7 +170,7 @@ function findValueByKey(companyName) {
   return searchInCompany(company);
 }
 
-companyNameToFind = 'Клієнт 1.2.3';
+let companyNameToFind = 'Клієнт 1.2.3';
 const result = findValueByKey(companyNameToFind);
 
 if (result) {
